@@ -132,4 +132,4 @@ function CleanUserProfiles
     Write-Host "Done! Excess profiles have been deleted!"
 }
 
-CleanUserProfiles -execuptusers $exceptusers -dry $dry -auto $auto 
+CleanUserProfiles -execuptusers $exceptusers -dry:$dry -auto:$auto 
